@@ -1,3 +1,5 @@
+#日本語バージョン
+
 # improved_chord_generator.py
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
