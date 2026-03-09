@@ -555,7 +555,7 @@ class ChordApp:
         self.bars_spin.grid(row=0, column=5, padx=6)
 
         tb.Label(control_frame, text="テンポ：", font=("Segoe UI", 11)).grid(row=1, column=0, sticky='w', padx=4, pady=6)
-        self.tempo_var = tk.IntVar(value=90)
+        self.tempo_var = tk.IntVar(value=150)
         self.tempo_slider = tb.Scale(control_frame, from_=40, to=200, orient='horizontal', bootstyle="info", variable=self.tempo_var, length=220)
         self.tempo_slider.grid(row=1, column=1, columnspan=3, sticky='w', padx=6)
 
